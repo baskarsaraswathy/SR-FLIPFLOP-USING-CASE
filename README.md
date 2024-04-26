@@ -1,15 +1,12 @@
 # EXP 06-SR_FLIPFLOP_USING_CASE
 
 **AIM:**
-
 To implement  SR flipflop using verilog and validating their functionality using their functional tables
 
 **SOFTWARE REQUIRED:**
-
 Quartus prime
 
 **THEORY**
-
 SR Flip-Flop SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
 
 ![image](https://github.com/naavaneetha/SR-FLIPFLOP-USING-CASE/assets/154305477/0f710028-ad52-4d3e-9276-8714cf023a25)
@@ -22,7 +19,6 @@ Here, Qtt & Qt+1t+1 are present state & next state respectively. So, SR flip-flo
 By using three variable K-Map, we can get the simplified expression for next state, Qt+1t+1. The three variable K-Map for next state, Qt+1t+1 is shown in the following figure.
 
 ![image](https://github.com/naavaneetha/SR-FLIPFLOP-USING-CASE/assets/154305477/473efad6-d70b-4ca7-aeb7-898bbfca319f)
-
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=S+R′Q(t)Q(t+1)=S+R′Q(t)
 
 **Procedure**
