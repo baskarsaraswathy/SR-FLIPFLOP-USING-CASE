@@ -23,13 +23,9 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 STEP 1:Type the program in Quartus software.
-
 STEP 2:Compile and run the program.
-
 STEP 3:Generate the RTL schematic and save the logic diagram.
-
 STEP 4:Create nodes for inputs and outputs to generate the timing diagram.
-
 STEP 5:For different input combinations generate the timing diagram
 **PROGRAM**
 ```
@@ -37,7 +33,6 @@ module flipflop(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using
   input s,r,clk, reset;
   output reg q;
   output q_bar;
- 
   always@(posedge clk) begin // for synchronous reset
     if(!reset)       q <= 0;
     else 
@@ -57,6 +52,7 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 
 # Developed by : BASKAR J 
 # RegisterNumber : 212223040025
+
 **RTL LOGIC FOR FLIPFLOPS**
 ![image](https://github.com/baskarsaraswathy/SR-FLIPFLOP-USING-CASE/assets/144871005/c02028f8-ee80-4794-bf78-b1d690cf3562)
 
