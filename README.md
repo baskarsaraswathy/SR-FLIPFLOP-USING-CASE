@@ -1,4 +1,4 @@
-# SR-FLIPFLOP-USING-CASE
+# EXP 06-SR_FLIPFLOP_USING_CASE
 
 **AIM:**
 
@@ -43,8 +43,7 @@ STEP 4:Create nodes for inputs and outputs to generate the timing diagram.
 
 STEP 5:For different input combinations generate the timing diagram
 **PROGRAM**
-
-/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+```
 module flipflop(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using ‘case’ 
   input s,r,clk, reset;
   output reg q;
@@ -64,9 +63,11 @@ module flipflop(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using
   end
   assign q_bar = ~q;
 endmodule
+```
+Program for logic gates and verify its truth table in quartus using Verilog programming.
 
-Developed by:BASKAR J RegisterNumber:212223040025
-*/
+# Developed by : BASKAR J 
+# RegisterNumber : 212223040025
 
 **RTL LOGIC FOR FLIPFLOPS**
 ![image](https://github.com/baskarsaraswathy/SR-FLIPFLOP-USING-CASE/assets/144871005/c02028f8-ee80-4794-bf78-b1d690cf3562)
